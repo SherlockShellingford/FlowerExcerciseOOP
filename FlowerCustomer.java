@@ -1,7 +1,7 @@
 package flowerSimulation;
 
 public class FlowerCustomer extends Person {
-	LocalFlorist _localFlorist;
+	private LocalFlorist _localFlorist;
 	
 	public FlowerCustomer(String name, LocalFlorist florist) {
 		super(name);

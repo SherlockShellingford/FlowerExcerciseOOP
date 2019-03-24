@@ -1,7 +1,7 @@
 package flowerSimulation;
 
 public class Grower extends Person {
-	Gardener _gardener;
+	private Gardener _gardener;
 	public Grower(String name) {
 		super(name);
 		// TODO Auto-generated constructor stub
