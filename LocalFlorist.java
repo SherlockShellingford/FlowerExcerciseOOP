@@ -8,6 +8,7 @@ public class LocalFlorist extends Person {
 		_recieverFlorist=florist;
 	}
 	requestFlowers(String flowers, Person addressee){
+		System.out.println(""+this.getName()+" forwards order to "+addressee.getName()+"’s florist");
 		_recieverFlowers.prepareFlowers(flowers, addressee);
 	}
 	

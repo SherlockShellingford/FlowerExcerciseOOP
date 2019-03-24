@@ -11,7 +11,7 @@ public class FlowerCustomer extends Person {
 
 
 	public void requestFlowers(String flowers, Person addressee) {
-	
+		System.out.println(""+this.getName()+" orders flowers from "+_localFlorist.getName()+": "+flowers);
 		_localFlorist.requestFlowers(flowers, addressee);
 	}
 
