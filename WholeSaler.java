@@ -1,7 +1,7 @@
 package flowerSimulation;
 
 public class WholeSaler extends Person {
-	Grower _grower;
+	private Grower _grower;
 	public WholeSaler(String name, Grower grower) {
 		super(name);
 		_grower=grower;
